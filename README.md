@@ -1,6 +1,7 @@
-# Static-Website
+# Fan-made static website
 An undeployed fan-made static website based on the video game series Little Nightmares.
 <br />
+
 ### Setup guide
 - Download or Clone the repository
 - Open using **Visual Studio Code**
