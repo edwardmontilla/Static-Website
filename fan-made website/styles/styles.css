@@ -1,0 +1,302 @@
+
+/* -------HOME TAB-------- */
+
+body {
+    background-image: linear-gradient(to right, #000000, #222222, #070707);
+    background-size: cover;
+    padding-bottom: 30px;
+    margin: 0 50px 0 50px;
+}
+
+
+@font-face {
+    font-family: "lnFont";
+    src: url(../font/ITCAvantGardeStd-Md.otf);
+}
+
+.logo {
+    background-image: url(../image/LN_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-attachment: scroll;
+    border-radius: 30px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 10px 93.40% 5px 10px;
+    padding-top: 100px;
+}
+
+#sitename {
+    font-family: lnFont, sans-serif;
+    color: #CCCCCC;
+    margin: -70px 0 50px 125px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 65px;
+    padding-bottom: 1px;
+    margin: 0 0 -35px 61px;
+    gap: 25px;
+}
+
+#Home {
+    font-family: lnFont, sans-serif;
+    color: #CCCCCC;
+    font-size: 15px;
+}
+
+#contactpage {
+    font-family: lnFont, sans-serif;
+    color: #CCCCCC;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #CCCCCC;
+    text-decoration-thickness: 1.5px;
+}
+
+.background {
+    background-image: url(../image/LN_backg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+
+    margin: 40px 0 50px 0;
+    padding-top: 250px;
+    padding-bottom: 230px;
+}
+
+#story {
+    font-family: lnFont, sans-serif;
+    color: #CCCCCC;
+    text-align: center;
+    margin: -100px 0 0 0;
+}
+
+#products {
+    font-family: lnFont, sans-serif;
+    color: #CCCCCC;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+p {
+    font-family: lnFont, sans-serif;
+    text-align: center;
+    color: #888888;
+}
+
+@import url('https://fonts.cdnfonts.com/css/gotham');
+.footer {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 21px;
+    width: 75px;
+    margin: 0 auto;
+}
+/* ------------End of Home Tab------------ */
+
+/* ------------CONTACT TAB------------ */
+
+#sitename2 {
+    font-family: lnFont, sans-serif;
+    color: #e4e3e3;
+    margin: -70px 0 50px 175px;
+}
+
+.buttons2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 65px;
+    padding-bottom: 1px;
+    margin: 0 0 -35px 111px;
+    gap: 25px;
+}
+
+.body2 {
+    background-image: linear-gradient(to bottom, #201d2f, #39327f, #201d2f);
+    background-size: cover;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.logo2 {
+    background-image: url(../image/LN_link.png);
+    background-repeat: no-repeat;
+    background-size: 81px;
+    background-attachment: scroll;
+    position: relative; top: 10px; left: 9.5px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 10px 93.40% 5px 60px;
+    padding-top: 100px;
+}
+
+
+.background2 {
+    background-image: url(../image/LN2_backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    margin: 40px 0 50px 0;
+    padding-top: 55px;
+    padding-bottom: 170px;
+}
+
+
+.footer2 {
+    font-family: Gotham, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.footer2> p {
+    font-family: lnFont, sans-serif;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.links_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 21px;
+    width: 75px;
+    margin: auto;
+}
+
+/* ----------FORM---------- */
+
+/* connected to bg2 */
+
+.name-email-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    gap: 30px;
+}
+
+#name {
+    font-family: lnFont, sans-serif;
+    font-size: 14px;
+    border: 10px #39327f;
+    border-radius: 3px;
+    width: 300px;
+}
+#name:focus {
+    border: 1px solid #47418f;
+}
+
+#email {
+    font-family: lnFont, sans-serif;
+    font-size: 14px;
+    border: 10px #39327f;
+    border-radius: 3px;
+    width: 300px;
+}
+#email:focus {
+    border: 1px solid #47418f;
+}
+
+#comment {
+    font-family: lnFont, sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    width: 634px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    padding-bottom: 85px;
+}
+#comment:focus {
+    border: 1px solid #47418f;
+}
+
+.sub_but {
+    transition-duration: 0.4s;
+    display: block;
+}
+
+#submit {
+    background-color: #39327f;
+    font-family: lnFont, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+}
+
+#submit:hover {
+    background-color: #4a4394;
+    color: white;
+}
+
+
+
+/* ------------End of Contact Tab------------*/
+
+
+
+
+
+/* ------------OTHER TESTS------------
+
+Add LOGOs: linkedin, IG?, etc.
+
+https://www.linkedin.com/in/edward-montilla-ab5b51192/
+
+
+.body2 {
+    background-image: linear-gradient(to bottom, #190e3a, #4b42a0, #0a0524);
+    background-size: cover;
+}
+
+Can't link without using JavaScript
+
+#link1 {
+    background-image: url(../image/LN_link.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 6px;
+    width: 15.5px;
+    height: 19px;
+} 
+
+#link2 {
+    background-image: url(../image/steam_logo.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 5px;
+    width: 15.5px;
+    height: 21px;
+}
+                    */
+
+
